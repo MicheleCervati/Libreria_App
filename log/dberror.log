@@ -1,0 +1,1 @@
+SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`libreria`.`listalibri`, CONSTRAINT `listalibri_ibfk_1` FOREIGN KEY (`id_genere`) REFERENCES `generi` (`id_genere`) ON DELETE CASCADE)--2025-01-30 10:51:57
